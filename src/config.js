@@ -3,42 +3,42 @@ const config = {
     {
       id: 1,
       name: 'bill-cipher',
-      image: 'bill-cipher.svg',
+      image: process.env.PUBLIC_URL + '/images/bill-cipher.svg',
     },
     {
       id: 2,
       name: 'brutus',
-      image: 'brutus.svg',
+      image: process.env.PUBLIC_URL + '/images/brutus.svg',
     },
     {
       id: 3,
       name: 'cheburashka',
-      image: 'cheburashka.svg',
+      image: process.env.PUBLIC_URL + '/images/cheburashka.svg',
     },
     {
       id: 4,
       name: 'genie',
-      image: 'genie.svg',
+      image: process.env.PUBLIC_URL + '/images/genie.svg',
     },
     {
       id: 5,
       name: 'mermaid',
-      image: 'mermaid.svg',
+      image: process.env.PUBLIC_URL + '/images/mermaid.svg',
     },
     {
       id: 6,
       name: 'morty-smith',
-      image: 'morty-smith.svg',
+      image: process.env.PUBLIC_URL + '/images/morty-smith.svg',
     },
     {
       id: 7,
       name: 'ninja-turtle',
-      image: 'ninja-turtle.svg',
+      image: process.env.PUBLIC_URL + '/images/ninja-turtle.svg',
     },
     {
       id: 8,
       name: 'popeye',
-      image: 'popeye.svg',
+      image: process.env.PUBLIC_URL + '/images/popeye.svg',
     }
   ]
 };
